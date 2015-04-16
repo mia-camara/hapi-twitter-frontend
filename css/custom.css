@@ -1,0 +1,87 @@
+html, body {
+	padding: 0;
+	height: 100%;
+}
+
+body { 
+	background: url(../images/216.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	font-size: 45px;
+}
+
+h4 {
+	display:inline !important;
+	font-weight: 300;
+	font-size: 117%;
+	clear:none;
+	color:inherit;
+	margin:0;
+	padding:0;
+}
+
+h5 {
+	display:inline !important;
+	font-weight: 300;
+	font-size: 100%;
+	clear:none;
+	color:inherit;
+	margin:0;
+	padding:0;
+}
+.container {
+  padding-top: 70px;  
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.fa-twitter:before {
+	vertical-align: -webkit-baseline-middle;
+}
+
+.fa-search {
+	vertical-align: sub;
+}
+
+#frontpage-sign-in {
+  margin: 0px;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 0.5px solid grey;
+  opacity: 0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  margin-bottom: 10px;
+}
+
+.col-xs-8 {
+	padding-left: 0px;
+}
+
+.checkbox {
+	font-size: 13px;
+}
+
+#frontpage-sign-up {
+  margin: 0px;
+  border-radius: 4px;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 0.5px solid grey;
+  opacity: 0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  color: #000;
+  font-weight: 600;
+  border-color: #eea236;
+  margin-top: 10px;
+}
+
