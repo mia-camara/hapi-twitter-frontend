@@ -89,6 +89,10 @@ h5 {
   margin-top: 10px;
 }
 
+#password_signin {
+	width: 246px;
+}
+
 /*PROFILE PAGE*/
 
 .navbar-page-item > li > a:hover {
