@@ -1,3 +1,5 @@
+/* LANDING PAGE*/
+
 html, body {
 	padding: 0;
 	height: 100%;
@@ -10,6 +12,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 h1 {
 	font-size: 45px;
 }
@@ -33,6 +36,7 @@ h5 {
 	margin:0;
 	padding:0;
 }
+
 .container {
   padding-top: 70px;  
   margin-left: auto;
@@ -40,12 +44,12 @@ h5 {
   width: 75%;
 }
 
-.fa-twitter:before {
+.nav-brand:before {
 	vertical-align: -webkit-baseline-middle;
 }
 
-.fa-search {
-	vertical-align: sub;
+.fa-search:before {
+	vertical-align: -webkit-baseline-middle;
 }
 
 #frontpage-sign-in {
@@ -84,4 +88,41 @@ h5 {
   border-color: #eea236;
   margin-top: 10px;
 }
+
+/*PROFILE PAGE*/
+
+.navbar-page-item > li > a:hover {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+.header-wrapper { 
+  position:relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:  
+}
+
+img.img-responsive { 
+	display: table-cell; 
+	max-width: 100%; 
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	colspan: 2;
+	color: blue;
+}
+
+tr {
+	padding: 5px;
+}
+
+
 
