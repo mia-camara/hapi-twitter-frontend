@@ -1,7 +1,7 @@
 $ (document).ready(function(){
 
 	// SIGN UP - NEW USER
-	$('#sign-up').on('click', function(){
+	$('#sign-up').on('click', function(event){
 		event.preventDefault(); 
 		
 		$.ajax({
@@ -23,7 +23,7 @@ $ (document).ready(function(){
 	});
 
 	// LOG IN - NEW SESSION
-	$('#log-in').on('click', function(){
+	$('#log-in').on('click', function(event){
 		console.log('testing log-in button')
 		event.preventDefault(); 
 
@@ -32,7 +32,7 @@ $ (document).ready(function(){
 	    url: 'http://localhost:3000/sessions',
 	    data: {
 	    	user: {
-	    		username: $('#username_signin').val(),
+	    		username: $('#existing_username').val(),
 	    		password: $('#password_signin').val()	
 	    	}
 	    },
